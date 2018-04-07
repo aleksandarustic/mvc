@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de286588-d236-4717-9f7b-0b4f80de520b" name="Default" comment="" />
+    <list default="true" id="de286588-d236-4717-9f7b-0b4f80de520b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Index_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +42,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="165">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="26" selection-start-column="26" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -78,6 +97,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -166,29 +186,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523134283822</updated>
-      <workItem from="1523134289420" duration="468000" />
+      <workItem from="1523134289420" duration="1184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="468000" />
+    <option name="totallyTimeSpent" value="1184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1025" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info auto_hide="true" id="TODO" internal_type="SLIDING" order="3" sideWeight="0.19831224" type="SLIDING" weight="0.14994664" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.509375" side_tool="true" weight="0.16648531" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.509375" side_tool="true" weight="0.16576381" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18985976" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info id="Terminal" order="2" sideWeight="0.20892274" side_tool="true" weight="0.17239584" />
-      <window_info active="true" content_ui="combo" x="588" y="354" width="231" height="748" id="Project" order="5" sideWeight="0.787649" visible="true" weight="0.153125" />
+      <window_info id="Terminal" order="2" sideWeight="0.21222222" side_tool="true" visible="true" weight="0.15671642" />
+      <window_info active="true" content_ui="combo" x="588" y="354" width="231" height="748" id="Project" order="5" sideWeight="0.7877778" visible="true" weight="0.15671642" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" x="789" y="46" width="341" height="947" id="Database" order="4" sideWeight="0.69339114" visible="true" weight="0.16510417" />
-      <window_info x="1325" y="574" width="268" height="395" id="Structure" order="1" sideWeight="0.21235102" side_tool="true" visible="true" weight="0.153125" />
+      <window_info anchor="right" x="789" y="46" width="341" height="947" id="Database" order="4" sideWeight="0.6933333" visible="true" weight="0.16897655" />
+      <window_info x="1325" y="574" width="268" height="395" id="Structure" order="1" sideWeight="0.21222222" side_tool="true" weight="0.15671642" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.490625" weight="0.32317737" />
       <window_info id="Favorites" order="4" sideWeight="0.35021096" side_tool="true" weight="0.12779553" />
-      <window_info anchor="right" id="Notes" order="5" sideWeight="0.3066089" side_tool="true" visible="true" weight="0.16510417" />
+      <window_info anchor="right" id="Notes" order="5" sideWeight="0.30666667" side_tool="true" visible="true" weight="0.16897655" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.13099042" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -245,8 +266,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="165">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="26" selection-start-column="26" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
